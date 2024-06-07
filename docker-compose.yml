@@ -63,6 +63,7 @@ services:
             PMA_HOST: mysql
         networks:
             - sail
+            
     redis:
         image: 'redis:alpine'
         ports:
